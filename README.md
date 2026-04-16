@@ -33,7 +33,8 @@ Server Link: Established a direct connection between MySQL and Power BI, ensurin
 | Power BI integration | 01 |
 
 ---
-
+### Project : flipkart_logistics_route_optimization
+Logistics Optimization for Delivery Routes – Flipkart
 ## Tools & Technologies
 - MySQL 8.0
 - MySQL Workbench
