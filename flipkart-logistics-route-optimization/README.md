@@ -7,10 +7,12 @@ A comprehensive SQL-based data analytics project analyzing delivery operations, 
 ## 📁 Project Structure
 
 ```
-delivery-analytics-sql/
+flipkart-logisitics-route-optimization-sql/
 ├── README.md
 ├── sql/
-│   ├── task1_data_cleaning.sql
+│   ├── schema.sql
+|   ├── loaddata.sql
+|   ├── task1_data_cleaning.sql
 │   ├── task2_delivery_delay_analysis.sql
 │   ├── task3_route_optimization.sql
 │   ├── task4_warehouse_performance.sql
@@ -18,7 +20,7 @@ delivery-analytics-sql/
 │   ├── task6_shipment_tracking.sql
 │   └── task7_kpi_reporting.sql
 ├── data/
-│   └── schema.sql
+│   └── files(Orders,Routes,ShipmentTracking,Warehouses,DeliveryAgent).csv
 └── presentation/
     └── delivery_analytics.pptx
 ```
@@ -34,8 +36,8 @@ The project uses the following key tables:
 | `Orders` | Order details with dates, locations, status |
 | `Routes` | Route info — distance, travel time, traffic delay |
 | `Warehouses` | Warehouse processing times and locations |
-| `DeliveryAgents` | Agent details and assigned routes |
-| `ShipmentTracking` | Checkpoint data for each shipment |
+| `Agents` | Agent details and assigned routes |
+| `Tracking` | Checkpoint data for each shipment |
 
 ---
 
@@ -55,7 +57,7 @@ The project uses the following key tables:
 
 ## 🛠️ Tools Used
 
-- **Database**: MySQL / PostgreSQ
+- **Database**: MySQL
 - **SQL Features Used**: CTEs, Window Functions, Subqueries, Aggregate Functions, Date Functions
 - **Presentation**: Microsoft PowerPoint
 
