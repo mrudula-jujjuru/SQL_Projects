@@ -22,7 +22,7 @@ flipkart-logisitics-route-optimization-sql/
 ├── data/
 │   └── files(Orders,Routes,ShipmentTracking,Warehouses,DeliveryAgent).csv
 └── presentation/
-    └── delivery_analytics.pptx
+    └── Flipkart_Logistics_Optimization_Presentation.pptx
 ```
 
 ---
